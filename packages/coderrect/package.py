@@ -18,7 +18,7 @@ class Coderrect(Package):
 
     maintainers = ['coderrect']
 
-    version('0.6.0', sha256='de88713a7ad2dd0a50778841755124b82acf8878951de67eb48b213c2ba435bb')
+    version('0.6.0', sha256='8985eb883515c236cd40449644c96f2a3806f993f610a7927cdbbbc65858da4b')
     
     def install(self, spec, prefix):
         install_tree('.', prefix)

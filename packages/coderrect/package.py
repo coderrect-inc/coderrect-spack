@@ -14,11 +14,11 @@ class Coderrect(Package):
     """A fast detector for C/C++ multi-threaded bugs"""
     
     homepage = "https://coderrect.com/"
-    url = "https://public-installer-pkg.s3.us-east-2.amazonaws.com/coderrect-linux-0.6.0.tar.gz"
+    url = "https://public-installer-pkg.s3.us-east-2.amazonaws.com/coderrect-linux-0.8.0.tar.gz"
 
     maintainers = ['coderrect']
 
-    version('0.6.0', sha256='8985eb883515c236cd40449644c96f2a3806f993f610a7927cdbbbc65858da4b')
+    version('0.8.0', sha256='b320c4e7b232a29a64b203f096f94af8cdc1291d91c1f694d0ea7344cac97d25')
     
     def install(self, spec, prefix):
         install_tree('.', prefix)
